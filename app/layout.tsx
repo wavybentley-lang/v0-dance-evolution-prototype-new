@@ -24,12 +24,12 @@ const dancingScript = Dancing_Script({
   display: 'swap',
 })
 
-const siteUrl = 'https://v0-prototype-dance-sport.vercel.app'
+const siteUrl = 'https://v0-dance-evolution-prototype-new.vercel.app'
 const siteName = 'Dance Evolution'
 const siteTitle = 'Dance Evolution | Scuola di danza a Pontecagnano'
 const siteDescription =
   'Dance Evolution e una scuola di danza a Pontecagnano con corsi, lezioni e attivita per diversi livelli.'
-const ogImage = `${siteUrl}/dancesport/og.jpg`
+const ogImage = `${siteUrl}/new/ogdanceevolution.jpg`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
