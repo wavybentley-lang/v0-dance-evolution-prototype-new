@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.lovelydance.it/sitemap.xml',
+    sitemap: 'https://v0-dance-evolution-prototype-new.vercel.app/sitemap.xml',
   }
 }

@@ -4,7 +4,7 @@ import path from 'node:path'
 export const dynamic = 'force-static'
 
 export async function GET() {
-  const imagePath = path.join(process.cwd(), 'public', 'dancesport', 'og.jpg')
+  const imagePath = path.join(process.cwd(), 'public', 'new', 'ogdanceevolution.jpg')
   const image = await readFile(imagePath)
 
   return new Response(image, {
